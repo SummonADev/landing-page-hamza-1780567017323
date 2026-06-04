@@ -18,7 +18,7 @@ const testimonials = [
     avatar: 'MJ',
     avatarColor: 'from-blue-500 to-cyan-500',
     rating: 5,
-    text: 'I've tried every project management tool on the market. Luminary is the only one that bridges the gap between product and engineering seamlessly. The analytics alone are worth the price.',
+    text: "I've tried every project management tool on the market. Luminary is the only one that bridges the gap between product and engineering seamlessly. The analytics alone are worth the price.",
   },
   {
     name: 'Priya Nair',
@@ -36,7 +36,7 @@ const testimonials = [
     avatar: 'DA',
     avatarColor: 'from-green-500 to-emerald-500',
     rating: 5,
-    text: 'The git-native workflows are a game changer. Everything is tied to actual code, so there's no manual status updates or chasing people down. Velocity metrics speak for themselves.',
+    text: "The git-native workflows are a game changer. Everything is tied to actual code, so there's no manual status updates or chasing people down. Velocity metrics speak for themselves.",
   },
 ]
 
@@ -81,7 +81,7 @@ export default function Testimonials() {
             </div>
 
             {/* Text */}
-            <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8">\u201c{t.text}\u201d</p>
+            <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8">&ldquo;{t.text}&rdquo;</p>
 
             {/* Author */}
             <div className="flex items-center gap-4">
